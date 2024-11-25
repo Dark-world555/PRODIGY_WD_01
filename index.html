@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shoe Landing Page</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/mediaqueries.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body id="home">
+
+  <header>
+    <nav class="navbar">
+      <ul class="nav-left">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+      </ul>
+  
+      <div class="logo"><div class="circle">Walkingo</div></div>
+  
+      <ul class="nav-right">
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+  
+      <div class="move">
+        <button class="theme-toggle" onclick="toggleTheme()">
+          <span class="light-icon"><i class="fa-solid fa-sun"></i></span>
+          <span class="dark-icon"><i class="fa-sharp fa-solid fa-moon"></i></span>
+        </button>
+      </div>
+
+      <button class="burger-menu" id="burger-menu">&#9776;</button>
+    </nav>
+  </header>
+
+  
+  
+  <a href="./cart.html"><button class="home-cart"><i class="fa-solid fa-cart-shopping"></i></button></a>
+  
+
+  <div class="hero-slider theme-toggle">
+    <div class="slide active">
+      <img src="./img/hero-1.png" alt="Shoe 1">
+      <div class="slide-text">
+        <h2>Pro Basketball Shoes</h2>
+        <p>High-top shoes for excellent ankle support.</p>
+      </div>
+    </div>
+    <!-- Additional slides will be dynamically added here -->
+  
+    <button class="prev" onclick="prevSlide()">&#10094;</button>
+    <button class="next" onclick="nextSlide()">&#10095;</button>
+  </div>
+
+  <hr>
+  <div id="about" style="margin-bottom: 50px;"></div>
+  <div></div>
+
+  <div class="about-us" id="about">
+    <div class="about-image">
+      <img src="./img/abt.png" alt="">
+    </div>
+    <div class="about-text">
+      <h2 class="abt-heading">About Us</h2>
+      <p>At Walkingo, we’re committed to providing the highest quality shoes that combine style, comfort, and durability. Every pair is crafted with precision and designed to elevate your everyday experience. We believe in delivering footwear that stands the test of time, keeping you comfortable and fashionable. Discover your perfect fit with us and step confidently into every moment.</p>
+
+      <button class="abt-btn btn" style="padding: 10px 40px;">Know more</button>
+    </div>
+  </div>
+
+  <hr>
+  <div id="products" style="margin-bottom: 50px;"></div>
+  <div></div>
+
+  <h2 class="products" id="products">Products</h2>
+
+  <div class="shoe-container theme-toggle"></div>
+
+  <hr>
+  <div id="contact" style="margin-bottom: 50px;"></div>
+  <div></div>
+  <h2 class="products">Contact Us</h2>
+  <section class="contact-section">
+    <form class="contact-form" action="#" method="POST">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+  
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+  
+      <div class="form-group">
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required />
+      </div>
+  
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+  
+      <button type="submit" class="submit-btn btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2023 Walkingo. All rights reserved <a href="#">Created by <span>Ankur Anand Mishra</span></a></p>
+  </footer>
+  
+
+
+  <script src="./js/script.js"></script>
+</body>
+</html>

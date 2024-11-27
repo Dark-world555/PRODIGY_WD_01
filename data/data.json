@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "name": "Air Max Runner",
+      "price": "$120",
+      "description": "Lightweight running shoes with cushioning.",
+      "image": "./img/air-max-runner.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Classic Sneakers",
+      "price": "$95",
+      "description": "Stylish sneakers for casual outings.",
+      "image": "./img/sneakers.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Basketball Shoes",
+      "price": "$150",
+      "description": "High-top shoes for excellent ankle support.",
+      "image": "./img/pro-basketball.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Trail Hiker",
+      "price": "$135",
+      "description": "Durable hiking shoes with excellent grip.",
+      "image": "./img/trail-hiker.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Urban Runners",
+      "price": "$110",
+      "description": "Designed for both urban and trail running.",
+      "image": "./img/urban-runner.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Flexi Walkers",
+      "price": "$90",
+      "description": "Flexible and breathable for daily walking.",
+      "image": "./img/flexi-walkers.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Skateboard Classics",
+      "price": "$85",
+      "description": "Perfect grip for  enthusiasts.",
+      "image": "./img/skateboard-classics.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Mountain Climbers",
+      "price": "$160",
+      "description": "Heavy-duty shoes for rough terrains.",
+      "image": "./img/mountain-climbers.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Slip-on Comfort",
+      "price": "$75",
+      "description": "Convenient and comfortable slip-on shoes.",
+      "image": "./img/slip-on-comfort.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Leather Formals",
+      "price": "$180",
+      "description": "Elegant formal shoes for professional attire.",
+      "image": "./img/leather-formals.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Crossfit Trainers",
+      "price": "$140",
+      "description": "Multi-purpose shoes for various workouts.",
+      "image": "./img/crossfit-trainers.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Tennis Pros",
+      "price": "$130",
+      "description": "Optimal grip and support for tennis players.",
+      "image": "./img/tennis-pro.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Beach Sandals",
+      "price": "$40",
+      "description": "Water-resistant sandals for beach outings.",
+      "image": "./img/beach-sandals.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Football Boots",
+      "price": "$150",
+      "description": "Studded boots for superior field grip.",
+      "image": "./img/studded-football.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Marathon Shoes",
+      "price": "$170",
+      "description": "Engineered for endurance and speed.",
+      "image": "./img/marathon-shoes.jpg"
+    },
+    {
+      "id": 16,
+      "name": "All-Day Comfort",
+      "price": "$105",
+      "description": "Designed for all-day support and comfort.",
+      "image": "./img/all-day-comfort.jpg"
+    },
+    {
+      "id": 17,
+      "name": "High-Top Canvas",
+      "price": "$80",
+      "description": "Trendy high-top shoes for casual wear.",
+      "image": "./img/high-top-canvas.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Minimalist Trainers",
+      "price": "$95",
+      "description": "Simple and lightweight design for movement.",
+      "image": "./img/minimalist-trainers.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Running Boost",
+      "price": "$115",
+      "description": "Advanced cushioning for running comfort.",
+      "image": "./img/running-boost.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Weatherproof Boots",
+      "price": "$190",
+      "description": "Durable boots for all weather conditions.",
+      "image": "./img/weather-proof.jpg"
+    }
+  ]
+  
